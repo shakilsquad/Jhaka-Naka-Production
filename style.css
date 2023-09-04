@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+p{
+      font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4{
+      font-family: 'Bebas Neue', sans-serif;
+}
+
+/* nev section area */
+.nav-container {
+      display: flex;
+      max-width: 1400px;
+      margin:  auto;
+      align-items: center;
+      justify-content: space-between;
+      padding: 15px 27px;
+      font-family: 'Bebas Neue', sans-serif;
+  }
+
+.menu-section a{
+      /* padding-left:20px ; */
+      text-decoration: none;
+    
+}
+            /* <!-- our Movie collection --> */
+.footer-container{
+      background-image: url("./images/footer-bg.jpg");
+      padding: 50px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      object-fit: cover;
+      color: #fff;
+      text-align: center;
+}
+.footer-container p{
+      padding: 20px 0;
+}
